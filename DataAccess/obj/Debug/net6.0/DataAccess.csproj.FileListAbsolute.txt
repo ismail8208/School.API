@@ -1,0 +1,17 @@
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\SchoolDomain.dll
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\bin\Debug\net6.0\SchoolDomain.pdb
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\from zero to hero\.net\C#\homework C#\School\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

@@ -1,0 +1,779 @@
+2022-10-22 18:41:30.852 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 18:41:31.108 +03:00 [DBG] Hosting starting
+2022-10-22 18:41:31.516 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 18:41:31.581 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 18:41:31.582 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 18:41:31.583 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 18:41:31.584 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 18:41:31.584 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 18:41:31.585 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 18:41:31.586 +03:00 [INF] Hosting environment: Development
+2022-10-22 18:41:31.586 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 18:41:31.587 +03:00 [DBG] Hosting started
+2022-10-22 18:41:31.629 +03:00 [DBG] Connection id "0HMLK8FI8DEG8" accepted.
+2022-10-22 18:41:31.631 +03:00 [DBG] Connection id "0HMLK8FI8DEG7" accepted.
+2022-10-22 18:41:31.632 +03:00 [DBG] Connection id "0HMLK8FI8DEG7" received FIN.
+2022-10-22 18:41:31.632 +03:00 [DBG] Connection id "0HMLK8FI8DEG8" received FIN.
+2022-10-22 18:41:31.634 +03:00 [DBG] Connection id "0HMLK8FI8DEG7" started.
+2022-10-22 18:41:31.634 +03:00 [DBG] Connection id "0HMLK8FI8DEG8" started.
+2022-10-22 18:41:31.672 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 18:41:31.672 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 18:41:31.768 +03:00 [DBG] Connection id "0HMLK8FI8DEG7" stopped.
+2022-10-22 18:41:31.768 +03:00 [DBG] Connection id "0HMLK8FI8DEG8" stopped.
+2022-10-22 18:41:31.774 +03:00 [DBG] Connection id "0HMLK8FI8DEG8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 18:41:31.774 +03:00 [DBG] Connection id "0HMLK8FI8DEG7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 18:41:32.160 +03:00 [DBG] Connection id "0HMLK8FI8DEG9" accepted.
+2022-10-22 18:41:32.164 +03:00 [DBG] Connection id "0HMLK8FI8DEG9" started.
+2022-10-22 18:41:32.284 +03:00 [DBG] Connection 0HMLK8FI8DEG9 established using the following protocol: "Tls13"
+2022-10-22 18:41:32.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 18:41:32.550 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 18:41:32.589 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 18:41:32.591 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 18:41:32.767 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 18:41:32.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 18:41:32.988 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 18:41:32.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 515.6519ms
+2022-10-22 18:41:33.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 20.1573ms
+2022-10-22 18:41:33.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 18:41:33.082 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.6346ms
+2022-10-22 18:41:33.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 18:41:33.225 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 18:41:33.226 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 18:41:33.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 300.0825ms
+2022-10-22 18:42:00.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 18:42:00.184 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 18:42:00.197 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 18:42:00.200 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 18:42:00.206 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 18:42:00.210 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 18:42:00.234 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 18:42:00.239 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 18:42:00.240 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 18:42:00.241 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 18:42:00.243 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 18:42:00.245 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 18:42:00.248 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 18:42:00.249 +03:00 [DBG] Executed controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 18:42:00.252 +03:00 [INF] hi my Get student endpoint ...............
+2022-10-22 18:42:04.652 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2022-10-22 18:42:04.659 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-10-22 18:42:04.660 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-22 18:42:04.661 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-22 18:42:04.675 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/xml' to write the response.
+2022-10-22 18:42:04.677 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SchoolDomain.Student, SchoolDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 18:42:04.736 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 4478.9863ms
+2022-10-22 18:42:04.740 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 18:42:04.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 200 1458 application/xml;+charset=utf-8 4573.6523ms
+2022-10-22 19:34:24.363 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 19:34:24.572 +03:00 [DBG] Hosting starting
+2022-10-22 19:34:24.832 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 19:34:24.896 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 19:34:24.896 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 19:34:24.897 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 19:34:24.897 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 19:34:24.898 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 19:34:24.898 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 19:34:24.899 +03:00 [INF] Hosting environment: Development
+2022-10-22 19:34:24.900 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 19:34:24.900 +03:00 [DBG] Hosting started
+2022-10-22 19:34:25.116 +03:00 [DBG] Connection id "0HMLK9D4172BJ" accepted.
+2022-10-22 19:34:25.116 +03:00 [DBG] Connection id "0HMLK9D4172BI" accepted.
+2022-10-22 19:34:25.117 +03:00 [DBG] Connection id "0HMLK9D4172BI" started.
+2022-10-22 19:34:25.117 +03:00 [DBG] Connection id "0HMLK9D4172BJ" started.
+2022-10-22 19:34:25.124 +03:00 [DBG] Connection id "0HMLK9D4172BJ" received FIN.
+2022-10-22 19:34:25.124 +03:00 [DBG] Connection id "0HMLK9D4172BI" received FIN.
+2022-10-22 19:34:25.311 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 19:34:25.311 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 19:34:25.448 +03:00 [DBG] Connection id "0HMLK9D4172BI" stopped.
+2022-10-22 19:34:25.450 +03:00 [DBG] Connection id "0HMLK9D4172BJ" stopped.
+2022-10-22 19:34:25.462 +03:00 [DBG] Connection id "0HMLK9D4172BI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 19:34:25.466 +03:00 [DBG] Connection id "0HMLK9D4172BJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 19:34:25.674 +03:00 [DBG] Connection id "0HMLK9D4172BK" accepted.
+2022-10-22 19:34:25.718 +03:00 [DBG] Connection id "0HMLK9D4172BK" started.
+2022-10-22 19:34:25.938 +03:00 [DBG] Connection 0HMLK9D4172BK established using the following protocol: "Tls13"
+2022-10-22 19:34:26.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 19:34:26.137 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 19:34:26.190 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 19:34:26.199 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 19:34:26.368 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 19:34:26.666 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 19:34:26.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 616.0393ms
+2022-10-22 19:34:26.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 19:34:26.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 19:34:26.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 49.3914ms
+2022-10-22 19:34:26.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 232.7272ms
+2022-10-22 19:34:27.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 19:34:27.325 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 19:34:27.346 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 19:34:27.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 656.8181ms
+2022-10-22 19:34:30.586 +03:00 [DBG] Connection id "0HMLK9D4172BK" received FIN.
+2022-10-22 19:34:30.592 +03:00 [DBG] Connection id "0HMLK9D4172BK" is closed. The last processed stream ID was 7.
+2022-10-22 19:34:30.593 +03:00 [DBG] Connection id "0HMLK9D4172BK" sending FIN because: "The client closed the connection."
+2022-10-22 19:34:30.594 +03:00 [DBG] Connection id "0HMLK9D4172BK" stopped.
+2022-10-22 20:12:26.795 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:12:26.993 +03:00 [DBG] Hosting starting
+2022-10-22 20:12:27.252 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:12:27.285 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:12:27.285 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:12:27.286 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:12:27.286 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:12:27.287 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:12:27.287 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:12:27.288 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:12:27.288 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:12:27.288 +03:00 [DBG] Hosting started
+2022-10-22 20:12:27.349 +03:00 [DBG] Connection id "0HMLKA2C69IFE" accepted.
+2022-10-22 20:12:27.351 +03:00 [DBG] Connection id "0HMLKA2C69IFE" started.
+2022-10-22 20:12:27.352 +03:00 [DBG] Connection id "0HMLKA2C69IFF" accepted.
+2022-10-22 20:12:27.355 +03:00 [DBG] Connection id "0HMLKA2C69IFF" started.
+2022-10-22 20:12:27.357 +03:00 [DBG] Connection id "0HMLKA2C69IFE" received FIN.
+2022-10-22 20:12:27.357 +03:00 [DBG] Connection id "0HMLKA2C69IFF" received FIN.
+2022-10-22 20:12:27.415 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:12:27.415 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:12:27.489 +03:00 [DBG] Connection id "0HMLKA2C69IFE" stopped.
+2022-10-22 20:12:27.492 +03:00 [DBG] Connection id "0HMLKA2C69IFF" stopped.
+2022-10-22 20:12:27.494 +03:00 [DBG] Connection id "0HMLKA2C69IFF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:12:27.494 +03:00 [DBG] Connection id "0HMLKA2C69IFE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:12:27.923 +03:00 [DBG] Connection id "0HMLKA2C69IFG" accepted.
+2022-10-22 20:12:27.927 +03:00 [DBG] Connection id "0HMLKA2C69IFG" started.
+2022-10-22 20:12:28.091 +03:00 [DBG] Connection 0HMLKA2C69IFG established using the following protocol: "Tls13"
+2022-10-22 20:12:28.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:12:28.276 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:12:28.321 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:12:28.323 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:12:28.483 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:12:28.671 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:12:28.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:12:28.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 496.8688ms
+2022-10-22 20:12:28.712 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:12:28.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 30.9127ms
+2022-10-22 20:12:28.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.7240ms
+2022-10-22 20:12:28.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:12:28.877 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:12:28.879 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:12:29.359 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 485.3473ms
+2022-10-22 20:12:35.727 +03:00 [DBG] Connection id "0HMLKA2C69IFG" received FIN.
+2022-10-22 20:12:35.740 +03:00 [DBG] Connection id "0HMLKA2C69IFG" is closed. The last processed stream ID was 7.
+2022-10-22 20:12:35.744 +03:00 [DBG] Connection id "0HMLKA2C69IFG" sending FIN because: "The client closed the connection."
+2022-10-22 20:12:35.751 +03:00 [DBG] Connection id "0HMLKA2C69IFG" stopped.
+2022-10-22 20:12:35.818 +03:00 [DBG] Connection id "0HMLKA2C69IFH" accepted.
+2022-10-22 20:12:35.819 +03:00 [DBG] Connection id "0HMLKA2C69IFH" started.
+2022-10-22 20:12:35.823 +03:00 [DBG] Connection 0HMLKA2C69IFH established using the following protocol: "Tls13"
+2022-10-22 20:12:35.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 20:12:35.834 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 20:12:35.841 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 20:12:35.843 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:12:35.845 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 20:12:35.851 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:12:35.881 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 20:12:35.885 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 20:12:35.886 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 20:12:35.887 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 20:12:35.889 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 20:12:35.890 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 20:12:35.892 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:12:35.892 +03:00 [DBG] Executed controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:12:35.897 +03:00 [INF] hi my Get student endpoint ...............
+2022-10-22 20:12:39.734 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2022-10-22 20:12:39.743 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-10-22 20:12:39.743 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-22 20:12:39.744 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-22 20:12:39.762 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/xml' to write the response.
+2022-10-22 20:12:39.764 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SchoolDomain.Student, SchoolDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 20:12:39.818 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 3921.2454ms
+2022-10-22 20:12:39.822 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:12:39.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 200 1458 application/xml;+charset=utf-8 3999.3292ms
+2022-10-22 20:12:45.700 +03:00 [DBG] Connection id "0HMLKA2C69IFH" received FIN.
+2022-10-22 20:12:45.701 +03:00 [DBG] Connection id "0HMLKA2C69IFH" is closed. The last processed stream ID was 1.
+2022-10-22 20:12:45.702 +03:00 [DBG] Connection id "0HMLKA2C69IFH" sending FIN because: "The client closed the connection."
+2022-10-22 20:12:45.703 +03:00 [DBG] Connection id "0HMLKA2C69IFH" stopped.
+2022-10-22 20:29:11.994 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:29:12.135 +03:00 [DBG] Hosting starting
+2022-10-22 20:29:12.307 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:29:12.353 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:29:12.354 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:29:12.355 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:29:12.357 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:29:12.358 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:29:12.360 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:29:12.361 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:29:12.362 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:29:12.363 +03:00 [DBG] Hosting started
+2022-10-22 20:29:12.364 +03:00 [DBG] Connection id "0HMLKABNMS8RJ" received FIN.
+2022-10-22 20:29:12.365 +03:00 [DBG] Connection id "0HMLKABNMS8RK" received FIN.
+2022-10-22 20:29:12.375 +03:00 [DBG] Connection id "0HMLKABNMS8RK" accepted.
+2022-10-22 20:29:12.375 +03:00 [DBG] Connection id "0HMLKABNMS8RJ" accepted.
+2022-10-22 20:29:12.381 +03:00 [DBG] Connection id "0HMLKABNMS8RJ" started.
+2022-10-22 20:29:12.381 +03:00 [DBG] Connection id "0HMLKABNMS8RK" started.
+2022-10-22 20:29:12.408 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:29:12.408 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:29:15.478 +03:00 [DBG] Connection id "0HMLKABNMS8RL" accepted.
+2022-10-22 20:29:15.479 +03:00 [DBG] Connection id "0HMLKABNMS8RK" stopped.
+2022-10-22 20:29:15.479 +03:00 [DBG] Connection id "0HMLKABNMS8RJ" stopped.
+2022-10-22 20:29:15.482 +03:00 [DBG] Connection id "0HMLKABNMS8RL" started.
+2022-10-22 20:29:15.511 +03:00 [DBG] Connection id "0HMLKABNMS8RK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:29:15.521 +03:00 [DBG] Connection id "0HMLKABNMS8RJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:29:15.622 +03:00 [DBG] Connection 0HMLKABNMS8RL established using the following protocol: "Tls13"
+2022-10-22 20:29:15.766 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:29:15.829 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:29:15.863 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:29:15.865 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:29:16.121 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:29:16.289 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:29:16.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:29:16.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:29:16.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 593.3711ms
+2022-10-22 20:29:16.379 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 35.4116ms
+2022-10-22 20:29:16.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.6589ms
+2022-10-22 20:29:16.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:29:16.533 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:29:16.535 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:29:16.822 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.0408ms
+2022-10-22 20:29:18.987 +03:00 [DBG] Connection id "0HMLKABNMS8RL" received FIN.
+2022-10-22 20:29:18.994 +03:00 [DBG] Connection id "0HMLKABNMS8RL" is closed. The last processed stream ID was 7.
+2022-10-22 20:29:18.995 +03:00 [DBG] Connection id "0HMLKABNMS8RL" sending FIN because: "The client closed the connection."
+2022-10-22 20:29:19.010 +03:00 [DBG] Connection id "0HMLKABNMS8RL" stopped.
+2022-10-22 20:29:25.203 +03:00 [DBG] Connection id "0HMLKABNMS8RM" accepted.
+2022-10-22 20:29:25.205 +03:00 [DBG] Connection id "0HMLKABNMS8RM" started.
+2022-10-22 20:29:25.211 +03:00 [DBG] Connection 0HMLKABNMS8RM established using the following protocol: "Tls13"
+2022-10-22 20:29:25.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 20:29:25.220 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 20:29:25.225 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 20:29:25.226 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:29:25.228 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 20:29:25.233 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:29:25.257 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 20:29:25.259 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 20:29:25.260 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 20:29:25.261 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 20:29:25.262 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 20:29:25.263 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 20:29:25.264 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:29:25.274 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 4.0881ms
+2022-10-22 20:29:25.277 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:29:25.279 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'School.API.Services.StudentRepository' while attempting to activate 'School.API.Controller.StudentsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-10-22 20:29:25.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 500 - text/plain;+charset=utf-8 79.3661ms
+2022-10-22 20:29:28.991 +03:00 [DBG] Connection id "0HMLKABNMS8RM" received FIN.
+2022-10-22 20:29:28.993 +03:00 [DBG] Connection id "0HMLKABNMS8RM" is closed. The last processed stream ID was 1.
+2022-10-22 20:29:28.994 +03:00 [DBG] Connection id "0HMLKABNMS8RM" sending FIN because: "The client closed the connection."
+2022-10-22 20:29:29.001 +03:00 [DBG] Connection id "0HMLKABNMS8RM" stopped.
+2022-10-22 20:30:33.763 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:30:33.964 +03:00 [DBG] Hosting starting
+2022-10-22 20:30:34.162 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:30:34.201 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:30:34.202 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:30:34.203 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:30:34.203 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:30:34.203 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:30:34.204 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:30:34.205 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:30:34.205 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:30:34.205 +03:00 [DBG] Hosting started
+2022-10-22 20:30:34.650 +03:00 [DBG] Connection id "0HMLKACG7K317" received FIN.
+2022-10-22 20:30:34.650 +03:00 [DBG] Connection id "0HMLKACG7K318" received FIN.
+2022-10-22 20:30:34.658 +03:00 [DBG] Connection id "0HMLKACG7K317" accepted.
+2022-10-22 20:30:34.658 +03:00 [DBG] Connection id "0HMLKACG7K318" accepted.
+2022-10-22 20:30:34.659 +03:00 [DBG] Connection id "0HMLKACG7K318" started.
+2022-10-22 20:30:34.659 +03:00 [DBG] Connection id "0HMLKACG7K317" started.
+2022-10-22 20:30:34.682 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:30:34.682 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:30:34.748 +03:00 [DBG] Connection id "0HMLKACG7K317" stopped.
+2022-10-22 20:30:34.748 +03:00 [DBG] Connection id "0HMLKACG7K318" stopped.
+2022-10-22 20:30:34.751 +03:00 [DBG] Connection id "0HMLKACG7K318" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:30:34.751 +03:00 [DBG] Connection id "0HMLKACG7K317" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:30:35.183 +03:00 [DBG] Connection id "0HMLKACG7K319" accepted.
+2022-10-22 20:30:35.221 +03:00 [DBG] Connection id "0HMLKACG7K319" started.
+2022-10-22 20:30:35.345 +03:00 [DBG] Connection 0HMLKACG7K319 established using the following protocol: "Tls13"
+2022-10-22 20:30:35.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:30:35.584 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:30:35.648 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:30:35.650 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:30:35.859 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:30:36.634 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:30:36.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:30:36.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:30:36.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 1217.2959ms
+2022-10-22 20:30:36.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 57.5473ms
+2022-10-22 20:30:36.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 212.4934ms
+2022-10-22 20:30:37.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:30:37.022 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:30:37.023 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:30:37.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 387.3300ms
+2022-10-22 20:30:43.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 20:30:43.248 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 20:30:43.263 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 20:30:43.275 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:30:43.280 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 20:30:43.285 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:30:43.328 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 20:30:43.331 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 20:30:43.335 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 20:30:43.336 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 20:30:43.338 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 20:30:43.340 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 20:30:43.342 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:30:43.671 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-22 20:30:43.722 +03:00 [DBG] Executed controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:30:44.826 +03:00 [INF] Entity Framework Core 6.0.10 initialized 'SchoolContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-22 20:30:44.975 +03:00 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Where(s => s.IsDeleted == False)
+    .Include(c => c.Courses)'
+2022-10-22 20:30:45.146 +03:00 [DBG] Including navigation: 'Student.Courses'.
+2022-10-22 20:30:45.506 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Student>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Student.StudentId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.IsDeleted (bool) Required, 1], [Property: Student.Name (string) Required, 2] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.CourseId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: Course.Description (string) Required, 4], [Property: Course.IsDeleted (bool) Required, 5], [Property: Course.Name (string) Required, 6], [Property: Course.StudentId (int) Required FK Index, 7] }
+            3 -> 3
+        SELECT s.StudentId, s.IsDeleted, s.Name, c.CourseId, c.Description, c.IsDeleted, c.Name, c.StudentId
+        FROM Students AS s
+        LEFT JOIN Courses AS c ON s.StudentId == c.StudentId
+        WHERE s.IsDeleted == CAST(0 AS bit)
+        ORDER BY s.StudentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+    DataAccess.SchoolContext, 
+    False, 
+    False, 
+    True
+)'
+2022-10-22 20:30:45.574 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-22 20:30:45.620 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (44ms).
+2022-10-22 20:30:45.632 +03:00 [DBG] Opening connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:30:46.972 +03:00 [DBG] Opened connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:30:46.988 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:30:47.072 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:30:47.163 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.206 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.207 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.207 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.208 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.208 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.209 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.209 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.210 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.211 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.211 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.212 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.212 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:30:47.222 +03:00 [DBG] A data reader was disposed.
+2022-10-22 20:30:47.230 +03:00 [DBG] Closing connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:30:47.240 +03:00 [DBG] Closed connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:30:47.252 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2022-10-22 20:30:47.258 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-10-22 20:30:47.259 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-22 20:30:47.259 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-22 20:30:47.275 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/xml' to write the response.
+2022-10-22 20:30:47.277 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SchoolDomain.Student, SchoolDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 20:30:47.326 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 3978.2657ms
+2022-10-22 20:30:47.329 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:30:47.338 +03:00 [DBG] 'SchoolContext' disposed.
+2022-10-22 20:30:47.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 200 1458 application/xml;+charset=utf-8 4128.7219ms
+2022-10-22 20:30:52.269 +03:00 [DBG] Connection id "0HMLKACG7K319" received FIN.
+2022-10-22 20:30:52.271 +03:00 [DBG] Connection id "0HMLKACG7K319" is closed. The last processed stream ID was 9.
+2022-10-22 20:30:52.272 +03:00 [DBG] Connection id "0HMLKACG7K319" sending FIN because: "The client closed the connection."
+2022-10-22 20:30:52.275 +03:00 [DBG] Connection id "0HMLKACG7K319" stopped.
+2022-10-22 20:35:19.708 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:35:19.842 +03:00 [DBG] Hosting starting
+2022-10-22 20:35:20.026 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:35:20.085 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:35:20.086 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:35:20.087 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:35:20.088 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:35:20.089 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:35:20.090 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:35:20.091 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:35:20.092 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:35:20.092 +03:00 [DBG] Hosting started
+2022-10-22 20:35:20.216 +03:00 [DBG] Connection id "0HMLKAF5AV1QM" accepted.
+2022-10-22 20:35:20.216 +03:00 [DBG] Connection id "0HMLKAF5AV1QN" accepted.
+2022-10-22 20:35:20.218 +03:00 [DBG] Connection id "0HMLKAF5AV1QN" started.
+2022-10-22 20:35:20.218 +03:00 [DBG] Connection id "0HMLKAF5AV1QM" started.
+2022-10-22 20:35:20.238 +03:00 [DBG] Connection id "0HMLKAF5AV1QN" received FIN.
+2022-10-22 20:35:20.238 +03:00 [DBG] Connection id "0HMLKAF5AV1QM" received FIN.
+2022-10-22 20:35:20.265 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:35:20.265 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:35:20.322 +03:00 [DBG] Connection id "0HMLKAF5AV1QN" stopped.
+2022-10-22 20:35:20.322 +03:00 [DBG] Connection id "0HMLKAF5AV1QM" stopped.
+2022-10-22 20:35:20.326 +03:00 [DBG] Connection id "0HMLKAF5AV1QM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:35:20.326 +03:00 [DBG] Connection id "0HMLKAF5AV1QN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:35:21.379 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" accepted.
+2022-10-22 20:35:21.382 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" started.
+2022-10-22 20:35:21.438 +03:00 [DBG] Connection 0HMLKAF5AV1QO established using the following protocol: "Tls13"
+2022-10-22 20:35:21.540 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:35:21.694 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:35:21.790 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:35:21.839 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:35:22.347 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:35:23.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:35:23.474 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:35:23.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:35:23.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 1948.7048ms
+2022-10-22 20:35:23.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 29.3228ms
+2022-10-22 20:35:23.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 451.0015ms
+2022-10-22 20:35:23.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:35:23.905 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:35:23.908 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:35:24.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 293.5376ms
+2022-10-22 20:35:31.505 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" received FIN.
+2022-10-22 20:35:31.513 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" is closed. The last processed stream ID was 7.
+2022-10-22 20:35:31.515 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" sending FIN because: "The client closed the connection."
+2022-10-22 20:35:31.517 +03:00 [DBG] Connection id "0HMLKAF5AV1QO" stopped.
+2022-10-22 20:35:45.452 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" accepted.
+2022-10-22 20:35:45.453 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" started.
+2022-10-22 20:35:45.460 +03:00 [DBG] Connection 0HMLKAF5AV1QP established using the following protocol: "Tls13"
+2022-10-22 20:35:45.461 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 20:35:45.466 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 20:35:45.470 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 20:35:45.471 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:35:45.472 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 20:35:45.475 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:35:45.493 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 20:35:45.494 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 20:35:45.495 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 20:35:45.496 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 20:35:45.497 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 20:35:45.498 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 20:35:45.500 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:35:45.682 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-22 20:35:45.711 +03:00 [DBG] Executed controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:35:46.466 +03:00 [INF] Entity Framework Core 6.0.10 initialized 'SchoolContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-22 20:35:46.559 +03:00 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Where(s => s.IsDeleted == False)
+    .Include(c => c.Courses)'
+2022-10-22 20:35:46.683 +03:00 [DBG] Including navigation: 'Student.Courses'.
+2022-10-22 20:35:47.002 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Student>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Student.StudentId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.IsDeleted (bool) Required, 1], [Property: Student.Name (string) Required, 2] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.CourseId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: Course.Description (string) Required, 4], [Property: Course.IsDeleted (bool) Required, 5], [Property: Course.Name (string) Required, 6], [Property: Course.StudentId (int) Required FK Index, 7] }
+            3 -> 3
+        SELECT s.StudentId, s.IsDeleted, s.Name, c.CourseId, c.Description, c.IsDeleted, c.Name, c.StudentId
+        FROM Students AS s
+        LEFT JOIN Courses AS c ON s.StudentId == c.StudentId
+        WHERE s.IsDeleted == CAST(0 AS bit)
+        ORDER BY s.StudentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+    DataAccess.SchoolContext, 
+    False, 
+    False, 
+    True
+)'
+2022-10-22 20:35:47.066 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-22 20:35:47.106 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (43ms).
+2022-10-22 20:35:47.117 +03:00 [DBG] Opening connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:35:48.322 +03:00 [DBG] Opened connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:35:48.340 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:35:48.433 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:35:48.490 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.523 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.524 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.524 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.525 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.525 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.526 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.526 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.527 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.527 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.528 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.529 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.530 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:35:48.539 +03:00 [DBG] A data reader was disposed.
+2022-10-22 20:35:48.548 +03:00 [DBG] Closing connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:35:48.558 +03:00 [DBG] Closed connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:35:48.564 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2022-10-22 20:35:48.567 +03:00 [DBG] No information found on request to perform content negotiation.
+2022-10-22 20:35:48.568 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-22 20:35:48.568 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-22 20:35:48.581 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter' and content type 'application/xml' to write the response.
+2022-10-22 20:35:48.581 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SchoolDomain.Student, SchoolDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 20:35:48.618 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 3114.7755ms
+2022-10-22 20:35:48.620 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:35:48.626 +03:00 [DBG] 'SchoolContext' disposed.
+2022-10-22 20:35:48.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 200 1458 application/xml;+charset=utf-8 3169.9517ms
+2022-10-22 20:35:51.523 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" received FIN.
+2022-10-22 20:35:51.524 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" is closed. The last processed stream ID was 1.
+2022-10-22 20:35:51.524 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" sending FIN because: "The client closed the connection."
+2022-10-22 20:35:51.535 +03:00 [DBG] Connection id "0HMLKAF5AV1QP" stopped.
+2022-10-22 20:38:47.896 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:38:48.031 +03:00 [DBG] Hosting starting
+2022-10-22 20:38:48.184 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:38:48.246 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:38:48.247 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:38:48.248 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:38:48.249 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:38:48.249 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:38:48.250 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:38:48.251 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:38:48.252 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:38:48.253 +03:00 [DBG] Hosting started
+2022-10-22 20:38:48.365 +03:00 [DBG] Connection id "0HMLKAH3C17DN" accepted.
+2022-10-22 20:38:48.365 +03:00 [DBG] Connection id "0HMLKAH3C17DO" accepted.
+2022-10-22 20:38:48.366 +03:00 [DBG] Connection id "0HMLKAH3C17DN" started.
+2022-10-22 20:38:48.366 +03:00 [DBG] Connection id "0HMLKAH3C17DO" started.
+2022-10-22 20:38:48.375 +03:00 [DBG] Connection id "0HMLKAH3C17DN" received FIN.
+2022-10-22 20:38:48.375 +03:00 [DBG] Connection id "0HMLKAH3C17DO" received FIN.
+2022-10-22 20:38:48.397 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:38:48.397 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:38:48.447 +03:00 [DBG] Connection id "0HMLKAH3C17DO" stopped.
+2022-10-22 20:38:48.447 +03:00 [DBG] Connection id "0HMLKAH3C17DN" stopped.
+2022-10-22 20:38:48.450 +03:00 [DBG] Connection id "0HMLKAH3C17DN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:38:48.450 +03:00 [DBG] Connection id "0HMLKAH3C17DO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:38:48.859 +03:00 [DBG] Connection id "0HMLKAH3C17DP" accepted.
+2022-10-22 20:38:48.872 +03:00 [DBG] Connection id "0HMLKAH3C17DP" started.
+2022-10-22 20:38:48.990 +03:00 [DBG] Connection 0HMLKAH3C17DP established using the following protocol: "Tls13"
+2022-10-22 20:38:49.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:38:49.144 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:38:49.202 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:38:49.217 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:38:49.427 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:38:49.725 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:38:49.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 657.1732ms
+2022-10-22 20:38:49.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:38:49.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:38:49.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 29.4864ms
+2022-10-22 20:38:50.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 296.9740ms
+2022-10-22 20:38:50.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:38:50.586 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:38:50.592 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:38:50.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 298.2683ms
+2022-10-22 20:39:28.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/api/Students - -
+2022-10-22 20:39:28.719 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Students'
+2022-10-22 20:39:28.723 +03:00 [DBG] Endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)' with route pattern 'api/Students' is valid for the request path '/api/Students'
+2022-10-22 20:39:28.726 +03:00 [DBG] Request matched endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:39:28.728 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-22 20:39:28.730 +03:00 [INF] Executing endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:39:28.745 +03:00 [INF] Route matched with {action = "GetStudents", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IList`1[SchoolDomain.Student]]] GetStudents() on controller School.API.Controller.StudentsController (School.API).
+2022-10-22 20:39:28.747 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-22 20:39:28.747 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-22 20:39:28.748 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-22 20:39:28.749 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-22 20:39:28.750 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-22 20:39:28.751 +03:00 [DBG] Executing controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:39:28.881 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-22 20:39:28.904 +03:00 [DBG] Executed controller factory for controller School.API.Controller.StudentsController (School.API)
+2022-10-22 20:39:29.614 +03:00 [INF] Entity Framework Core 6.0.10 initialized 'SchoolContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-10-22 20:39:29.702 +03:00 [DBG] Compiling query expression: 
+'DbSet<Student>()
+    .Where(s => s.IsDeleted == False)
+    .Include(c => c.Courses)'
+2022-10-22 20:39:29.815 +03:00 [DBG] Including navigation: 'Student.Courses'.
+2022-10-22 20:39:30.103 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Student>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Student.StudentId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Student.IsDeleted (bool) Required, 1], [Property: Student.Name (string) Required, 2] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.CourseId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: Course.Description (string) Required, 4], [Property: Course.IsDeleted (bool) Required, 5], [Property: Course.Name (string) Required, 6], [Property: Course.StudentId (int) Required FK Index, 7] }
+            3 -> 3
+        SELECT s.StudentId, s.IsDeleted, s.Name, c.CourseId, c.Description, c.IsDeleted, c.Name, c.StudentId
+        FROM Students AS s
+        LEFT JOIN Courses AS c ON s.StudentId == c.StudentId
+        WHERE s.IsDeleted == CAST(0 AS bit)
+        ORDER BY s.StudentId ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Student>, 
+    DataAccess.SchoolContext, 
+    False, 
+    False, 
+    True
+)'
+2022-10-22 20:39:30.159 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-22 20:39:30.197 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (34ms).
+2022-10-22 20:39:30.208 +03:00 [DBG] Opening connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:39:30.484 +03:00 [DBG] Opened connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:39:30.496 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:39:30.549 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentId], [s].[IsDeleted], [s].[Name], [c].[CourseId], [c].[Description], [c].[IsDeleted], [c].[Name], [c].[StudentId]
+FROM [Students] AS [s]
+LEFT JOIN [Courses] AS [c] ON [s].[StudentId] = [c].[StudentId]
+WHERE [s].[IsDeleted] = CAST(0 AS bit)
+ORDER BY [s].[StudentId]
+2022-10-22 20:39:30.596 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.625 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.626 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.626 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.627 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.628 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.629 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.629 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.630 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.630 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.631 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.632 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.632 +03:00 [DBG] Context 'SchoolContext' started tracking 'Student' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-10-22 20:39:30.641 +03:00 [DBG] A data reader was disposed.
+2022-10-22 20:39:30.647 +03:00 [DBG] Closing connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:39:30.656 +03:00 [DBG] Closed connection to database 'SchoolDatabase' on server '(localdb)\MSSQLLocalDB'.
+2022-10-22 20:39:30.662 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2022-10-22 20:39:30.666 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/json"]'.
+2022-10-22 20:39:30.667 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'text/json' to write the response.
+2022-10-22 20:39:30.668 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SchoolDomain.Student, SchoolDomain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 20:39:30.812 +03:00 [INF] Executed action School.API.Controller.StudentsController.GetStudents (School.API) in 2057.6857ms
+2022-10-22 20:39:30.814 +03:00 [INF] Executed endpoint 'School.API.Controller.StudentsController.GetStudents (School.API)'
+2022-10-22 20:39:30.820 +03:00 [DBG] 'SchoolContext' disposed.
+2022-10-22 20:39:30.823 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/api/Students - - - 200 819 text/json;+charset=utf-8 2114.0226ms
+2022-10-22 20:46:30.412 +03:00 [DBG] Connection id "0HMLKAH3C17DP" received FIN.
+2022-10-22 20:46:30.425 +03:00 [DBG] Connection id "0HMLKAH3C17DP" is closed. The last processed stream ID was 9.
+2022-10-22 20:46:30.461 +03:00 [DBG] Connection id "0HMLKAH3C17DP" sending FIN because: "The client closed the connection."
+2022-10-22 20:46:30.466 +03:00 [DBG] Connection id "0HMLKAH3C17DP" stopped.
+2022-10-22 20:52:12.532 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-22 20:52:12.738 +03:00 [DBG] Hosting starting
+2022-10-22 20:52:13.126 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3361CC47EBCDDCD21869ADFE80ADBD56BD80F30E)
+2022-10-22 20:52:13.215 +03:00 [INF] Now listening on: https://localhost:7046
+2022-10-22 20:52:13.216 +03:00 [INF] Now listening on: http://localhost:5046
+2022-10-22 20:52:13.217 +03:00 [DBG] Loaded hosting startup assembly School.API
+2022-10-22 20:52:13.218 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-22 20:52:13.219 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-22 20:52:13.220 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 20:52:13.221 +03:00 [INF] Hosting environment: Development
+2022-10-22 20:52:13.221 +03:00 [INF] Content root path: C:\from zero to hero\.net\C#\homework C#\School\School.API\
+2022-10-22 20:52:13.222 +03:00 [DBG] Hosting started
+2022-10-22 20:52:13.351 +03:00 [DBG] Connection id "0HMLKAOJ908PU" received FIN.
+2022-10-22 20:52:13.351 +03:00 [DBG] Connection id "0HMLKAOJ908PT" received FIN.
+2022-10-22 20:52:13.357 +03:00 [DBG] Connection id "0HMLKAOJ908PT" accepted.
+2022-10-22 20:52:13.357 +03:00 [DBG] Connection id "0HMLKAOJ908PU" accepted.
+2022-10-22 20:52:13.359 +03:00 [DBG] Connection id "0HMLKAOJ908PU" started.
+2022-10-22 20:52:13.359 +03:00 [DBG] Connection id "0HMLKAOJ908PT" started.
+2022-10-22 20:52:13.388 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:52:13.388 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-22 20:52:13.529 +03:00 [DBG] Connection id "0HMLKAOJ908PT" stopped.
+2022-10-22 20:52:13.529 +03:00 [DBG] Connection id "0HMLKAOJ908PU" stopped.
+2022-10-22 20:52:13.534 +03:00 [DBG] Connection id "0HMLKAOJ908PT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:52:13.534 +03:00 [DBG] Connection id "0HMLKAOJ908PU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-22 20:52:14.168 +03:00 [DBG] Connection id "0HMLKAOJ908PV" accepted.
+2022-10-22 20:52:14.280 +03:00 [DBG] Connection id "0HMLKAOJ908PV" started.
+2022-10-22 20:52:14.391 +03:00 [DBG] Connection 0HMLKAOJ908PV established using the following protocol: "Tls13"
+2022-10-22 20:52:14.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/index.html - -
+2022-10-22 20:52:14.661 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-22 20:52:14.711 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-22 20:52:14.715 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:52:14.996 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-22 20:52:15.879 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-22 20:52:15.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_vs/browserLink - -
+2022-10-22 20:52:15.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 20:52:16.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/index.html - - - 200 - text/html;charset=utf-8 1453.4606ms
+2022-10-22 20:52:16.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 96.2583ms
+2022-10-22 20:52:16.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 440.9733ms
+2022-10-22 20:52:16.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - -
+2022-10-22 20:52:16.564 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-22 20:52:16.568 +03:00 [DBG] Request did not match any endpoints
+2022-10-22 20:52:17.424 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7046/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 863.5295ms
+2022-10-22 20:52:23.018 +03:00 [DBG] Connection id "0HMLKAOJ908PV" received FIN.
+2022-10-22 20:52:23.032 +03:00 [DBG] Connection id "0HMLKAOJ908PV" is closed. The last processed stream ID was 7.
+2022-10-22 20:52:23.035 +03:00 [DBG] Connection id "0HMLKAOJ908PV" sending FIN because: "The client closed the connection."
+2022-10-22 20:52:23.040 +03:00 [DBG] Connection id "0HMLKAOJ908PV" stopped.

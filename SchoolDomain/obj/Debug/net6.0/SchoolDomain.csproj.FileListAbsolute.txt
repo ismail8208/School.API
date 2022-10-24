@@ -1,0 +1,12 @@
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\bin\Debug\net6.0\SchoolDomain.deps.json
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\bin\Debug\net6.0\SchoolDomain.dll
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\bin\Debug\net6.0\SchoolDomain.pdb
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.csproj.AssemblyReference.cache
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.AssemblyInfoInputs.cache
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.AssemblyInfo.cs
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.csproj.CoreCompileInputs.cache
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.dll
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\refint\SchoolDomain.dll
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\SchoolDomain.pdb
+C:\from zero to hero\.net\C#\homework C#\School\SchoolDomain\obj\Debug\net6.0\ref\SchoolDomain.dll
